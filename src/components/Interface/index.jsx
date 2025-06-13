@@ -10,7 +10,7 @@ export const Interface = () => {
                 <h1 className='text-white text-3xl '>Erivelton <br/>
                 <strong className='text-yellow-400'>AutoCenter</strong>
                 </h1>
-                <p className='w-80 font-medium lg:w-160 lg:max-w-160 text-white text-sm mt-2 '>Seu carro merece cuidado de verdade. Aqui na Erivelton Auto Center, fazemos alinhamento, balanceamento, troca de óleo, revisão completa e muito mais, sempre com atenção aos detalhes e preço justo.<br/>
+                <p className='w-70 font-medium lg:w-160 lg:max-w-160 text-white text-md mt-2 '>Seu carro merece cuidado de verdade. Aqui na Erivelton Auto Center, fazemos alinhamento, balanceamento, troca de óleo, revisão completa e muito mais, sempre com atenção aos detalhes e preço justo.<br/>
 
                 <strong className='font-bold'>👉 Agende seu serviço e dirija tranquilo!</strong></p>
 
