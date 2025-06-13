@@ -3,7 +3,7 @@ import servicos from "../../data/servicos"
 
 export const Services = () => {
     return(
-        <section className="h-full w-full mt-20 flex justify-center items-center flex-col">
+        <section className="h-full w-full mt-10 flex justify-center items-center flex-col">
             <h1 className="text-4xl font-medium text-white text-center">Nossos  
                 <span className="text-yellow-400"> Serviços</span>
                 </h1>

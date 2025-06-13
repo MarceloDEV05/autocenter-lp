@@ -10,9 +10,9 @@ export const Interface = () => {
                 <h1 className='text-white text-3xl '>Erivelton <br/>
                 <strong className='text-yellow-400'>AutoCenter</strong>
                 </h1>
-                <p className='w-105 lg:w-160 lg:max-w-160 text-white text-xl mt-2'>Seu carro merece cuidado de verdade. Aqui na Erivelton Auto Center, a gente faz alinhamento, balanceamento, troca de óleo, revisão completa e muito mais, sempre com atenção aos detalhes e preço justo.<br/>
+                <p className='w-80 font-medium lg:w-160 lg:max-w-160 text-white text-sm mt-2 '>Seu carro merece cuidado de verdade. Aqui na Erivelton Auto Center, fazemos alinhamento, balanceamento, troca de óleo, revisão completa e muito mais, sempre com atenção aos detalhes e preço justo.<br/>
 
-                👉 Agende seu serviço e dirija tranquilo!</p>
+                <strong className='font-bold'>👉 Agende seu serviço e dirija tranquilo!</strong></p>
 
                 <button className='mt-10 bg-yellow-400 p-1 rounded-md font-medium'>
                     <a className='flex items-center gap-2' href='https://wa.me/55016992611903'>
