@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaInstagram, FaPhone } from "react-icons/fa6"
+import { FaWhatsapp, FaInstagram, FaPhone, FaEnvelope } from "react-icons/fa6"
 export const Contacts = () => {
     return(
         <>
@@ -8,15 +8,22 @@ export const Contacts = () => {
         <div className="grid grid-cols-3 gap-3 w-60 justify-center mx-auto my-10 hover:scale-105 duration-300">
 
             <aside className=" w-full rounded-md h-12 flex items-center justify-center border-white bg-yellow-400 hover:scale-105 duration-300">
+            <a href="https://wa.me/55016992611903">
             <FaWhatsapp size={40}/>
+            </a>
             </aside>
 
             <aside className=" w-full h-12 rounded-md flex items-center justify-center border-white bg-yellow-400 hover:scale-105 duration-300">
+            <a href="">
             <FaInstagram size={40}/>
+            </a>
             </aside>
 
+
             <aside className="w-full h-12 rounded-md flex items-center justify-center border-white bg-yellow-400 hover:scale-105 duration-300">
-            <FaPhone size={40}/>
+            <a href="">
+            <FaEnvelope size={40}/>
+            </a>
             </aside>
         </div>
         </>
