@@ -30,7 +30,7 @@ export const Services = () => {
 
                         <aside className="mt-5 flex items-center justify-center ">
                             <a className="w-full" href={`https://wa.me/55016992611903?text=${message} ${servico.serviceName},`}>
-                            <button className="border flex items-center justify-center gap-2 w-full bg-yellow-400 font-medium p-1 rounded-md">Fazer Orçamento <FaWhatsapp size={24}/> </button>
+                            <button className="border flex items-center justify-center gap-2 w-full bg-yellow-400 font-medium p-1 rounded-md animate-pulse hover:scale-105 duration-300 transition-all ease-in-out">Fazer Orçamento <FaWhatsapp size={24}/> </button>
                             </a>
                         </aside>
                     </section>

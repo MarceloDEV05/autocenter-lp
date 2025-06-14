@@ -21,7 +21,7 @@ export const Interface = () => {
 
                 <strong className='font-bold'>👉 Agende seu serviço e dirija tranquilo!</strong></p>
 
-                <button className='mt-10 bg-yellow-400 p-1 rounded-md font-medium'>
+                <button className='mt-10 bg-yellow-400 p-1 rounded-md font-medium animate-pulse transition-all duration-300 ease-in-out hover:scale-110'>
                     <a className='flex items-center gap-2' href='https://wa.me/55016992611903'>
                     Agendar Serviço <FaWhatsapp size={23}/>
                     </a>
