@@ -1,10 +1,17 @@
 import { FaWhatsapp } from "react-icons/fa6"
 import servicos from "../../data/servicos"
+import { motion } from "framer-motion"
 
 export const Services = () => {
     const message = 'Olá gostaria de fazer um orçamento de '
     return(
-        <section className="h-full w-full mt-10 flex justify-center items-center flex-col">
+        <motion.section
+         initial={{ opacity: 0, x: -50 }}
+         whileInView={{ opacity: 1, x: 0 }}
+         transition={{ duration: 0.7, ease: "easeInOut" }}
+         viewport={{ once: false }}
+
+        className="h-full w-full mt-10 flex justify-center items-center flex-col">
             <h1 className="text-4xl font-medium text-white text-center">Nossos  
                 <span className="text-yellow-400"> Serviços</span>
                 </h1>
@@ -29,6 +36,6 @@ export const Services = () => {
                     </section>
                     ))}
                 </main>
-        </section>
+        </motion.section>
     )
 }

@@ -1,11 +1,18 @@
 
 import img from '../../assets/d1705d6cfc8af853d16b9cbd9438c866.jpg'
 import { FaWhatsapp } from 'react-icons/fa6'
+import { motion } from 'framer-motion'
 
 export const Interface = () => {
     return(
         <>
-        <div className='flex items-center justify-center w-full relative'>
+        <motion.div
+         initial={{ opacity: 0, x: -50 }}
+         whileInView={{ opacity: 1, x: 0 }}
+         transition={{ duration: 0.7, ease: "easeOut" }}
+         viewport={{ once: false }}
+        
+        className='flex items-center justify-center w-full relative'>
           <article className='absolute lg:left-20 left-8 z-99'>
                 <h1 className='text-white text-3xl '>Erivelton <br/>
                 <strong className='text-yellow-400'>AutoCenter</strong>
@@ -26,7 +33,7 @@ export const Interface = () => {
           
 
         </section>
-        </div>
+        </motion.div>
         </>
     )
 }
