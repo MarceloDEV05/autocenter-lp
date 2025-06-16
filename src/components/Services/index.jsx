@@ -11,7 +11,7 @@ export const Services = () => {
          transition={{ duration: 0.7, ease: "easeInOut" }}
          viewport={{ once: false }}
 
-        className="h-full w-full mt-10 flex justify-center items-center flex-col">
+        className="h-full w-full mt-10 flex justify-center items-center flex-col" id="services">
             <h1 className="text-4xl font-medium text-white text-center">Nossos  
                 <span className="text-yellow-400"> Serviços</span>
                 </h1>

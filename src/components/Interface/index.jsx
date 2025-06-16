@@ -1,5 +1,7 @@
 
-import img from '../../assets/d1705d6cfc8af853d16b9cbd9438c866.jpg'
+import img from '../../assets/fundo-de-exibicao-grunge-escuro-3d-com-atmosfera-esfumacada_1048-16218.avif'
+
+import carImg from "../../assets/volkswagen-gol-1.0-2023-removebg-preview.png"
 import { FaWhatsapp } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
 
@@ -12,27 +14,36 @@ export const Interface = () => {
          transition={{ duration: 0.7, ease: "easeOut" }}
          viewport={{ once: false }}
         
-        className='flex items-center justify-center w-full relative'>
-          <article className='absolute lg:left-20 left-8 z-99'>
-                <h1 className='text-white text-3xl '>Erivelton <br/>
-                <strong className='text-yellow-400'>AutoCenter</strong>
+        className='flex justify-center bg-cover bg-center h-screen object-cover w-full' style={{backgroundImage: `url(${img})`}} id='home'>
+           
+           
+          <article className='flex items-center justify-around w-full'>
+
+                 <section className='hidden lg:block md:block w-full  '>
+                    <img src={carImg} alt=""/>
+                </section>
+
+                <div className=''>
+
+                <h1 className='text-white justify-center lg:text-3xl text-[24px] flex gap-1 px-4'>Erivelton <br/>
+                <strong className='text-yellow-400 lg:text-3xl text-[24px]'>AutoCenter</strong>
                 </h1>
-                <p className='w-70 font-medium lg:w-160 lg:max-w-160 text-white lg:text-2xl md:text-xl md:w-120 text-md mt-2 '>Seu carro merece cuidado de verdade. Aqui na Erivelton Auto Center, fazemos alinhamento, balanceamento, troca de óleo, revisão completa e muito mais, sempre com atenção aos detalhes e preço justo.<br/>
+                <p className="text-white font-medium text-[17px] lg:w-full lg:max-w-300 w-full max-w-90 px-4">Seu carro merece cuidado de verdade. Aqui na Erivelton Auto Center, fazemos alinhamento, balanceamento, troca de óleo, revisão completa e muito mais, sempre com atenção aos detalhes e preço justo.<br/>
 
-                <strong className='font-bold'>👉 Agende seu serviço e dirija tranquilo!</strong></p>
+                <strong className='font-bold'>👉 Agende seu serviço e dirija tranquilo!</strong>
+                </p>
+                
 
-                <button className='mt-10 bg-yellow-400 p-1 rounded-md font-medium animate-pulse transition-all duration-300 ease-in-out hover:scale-110'>
-                    <a className='flex items-center gap-2' href='https://wa.me/55016992611903'>
+                <button className='flex bg-yellow-400  animate-pulse transition-all duration-300 ease-in-out hover:scale-110 mt-10 mb-5 p-2 rounded-md items-center  m-auto'>
+                    <a className='w-full gap-3 flex' href='https://wa.me/55016992611903'>
                     Agendar Serviço <FaWhatsapp size={23}/>
                     </a>
                 </button>
+                </div>
+
+               
                 
             </article>
-
-        <section className='bg-cover flex items-center justify-center bg-center w-full h-dvh object-cover brightness-50' style={{backgroundImage: `url(${img})`}}>
-          
-
-        </section>
         </motion.div>
         </>
     )
