@@ -4,6 +4,7 @@
  import { Services } from "./components/Services"
  import { Contacts } from "./components/Contacts"
  import { About } from "./components/About"
+import { Form } from "./components/Form"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Services/>
       <Contacts/>
+      <Form/>
       <Footer/>
     </main>
   )

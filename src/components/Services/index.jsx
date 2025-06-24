@@ -16,12 +16,12 @@ export const Services = () => {
                 <span className="text-yellow-400"> Serviços</span>
                 </h1>
 
-                <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-full px-8 gap-5 mt-20 max-w-3xl md:max-w-5xl lg:max-w-7xl justify-center pb-20">
+                <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-full px-8 gap-5 mt-20 max-w-3xl md:max-w-5xl lg:max-w-7xl justify-center pb-20">
                     {servicos.map((servico) => (
                         <section key={servico.id} className=' p-6 border-white rounded-md shadow-sm shadow-yellow-400 hover:scale-105 duration-300'>
                         <article>
                             <img src={servico.imagemUrl} alt="" 
-                            className="w-full object-cover h-80 rounded-2xl"
+                            className="w-full object-cover h-40 rounded-2xl"
                             />
                         </article>
                         <div>
